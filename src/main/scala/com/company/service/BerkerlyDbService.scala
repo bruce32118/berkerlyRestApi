@@ -1,4 +1,4 @@
-package com.ruten.service
+package com.company.service
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
@@ -8,8 +8,8 @@ import akka.event.Logging
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.{ExceptionHandler, Route}
-import com.ruten.util.Tools
-import com.ruten.db.DBAcess
+import com.company.util.Tools
+import com.company.db.DBAcess
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.{ExecutionContext, Future}
 import com.github.blemale.scaffeine.{ Cache, Scaffeine }
