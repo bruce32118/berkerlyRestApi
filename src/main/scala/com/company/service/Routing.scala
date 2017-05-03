@@ -3,8 +3,8 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
-import com.ruten.util._
-import com.ruten.db._
+import com.company.util._
+import com.company.db._
 import com.github.blemale.scaffeine.{ Cache, Scaffeine }
 import akka.actor.{Actor, ActorLogging}
 import scala.concurrent.ExecutionContext.Implicits.global
