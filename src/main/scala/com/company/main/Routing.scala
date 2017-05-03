@@ -9,9 +9,9 @@ import scala.concurrent.Future
 // json render
 import spray.json._
 
-import com.ruten.util._
-import com.ruten.db._
-import com.ruten.message._
+import com.company.util._
+import com.company.db._
+import com.company.message._
 
 object Routing extends DBAcess with Tools {
 
