@@ -6,7 +6,7 @@ import scala.util.Try
 import java.io._
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
-import com.ruten.util._
+import com.company.util._
 
 trait DBAcess{
 
