@@ -3,10 +3,10 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
 import akka.stream.ActorMaterializer
-import com.ruten.db._
-import com.ruten.service._
-import com.ruten.setting._
-import com.ruten.util._
+import com.company.db._
+import com.company.service._
+import com.company.setting._
+import com.company.util._
 import scala.concurrent.duration._
 import com.github.blemale.scaffeine.{ Cache, Scaffeine }
 //import scala.concurrent.ExecutionContext.Implicits.global
